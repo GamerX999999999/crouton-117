@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 RED='\033[0;31m'
 GREEN='\033[4;32m'
 NC='\033[0m' # No Color
@@ -87,7 +87,7 @@ echo "Bionic* is now set up! Please type [Sudo enter-chroot] and launch crosh, t
 Version()
 {
 	# Displays Version!
- echo -e "${GREEN}crouton117 v1.0.0_5${NC}"
+ echo -e "${GREEN}crouton117 v1.0.0_6${NC}"
  }
  
 
