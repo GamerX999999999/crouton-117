@@ -1,0 +1,4 @@
+#!/bin/sh -e
+#
+/etc/init.d/ssh start &
+exit 0
