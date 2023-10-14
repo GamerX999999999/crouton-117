@@ -36,6 +36,7 @@ esac
 
 done
 
+cd ~/
 echo "Installing Xenial Chroot..."
 echo "Make sure crouton is installed!"
 sudo CROUTON_BRANCH=silence crouton -r xenial -t xfce
@@ -46,6 +47,7 @@ echo "1st step complete! Please run ./crouton117.sh -X to continue!"
 
 Xenial2()
 {
+cd ~/
 echo "Resuming Installation of Xenial"
 sudo enter-chroot xenial
 cd ~/Downloads
@@ -59,6 +61,7 @@ echo "Xenial is now set up! Please type [Sudo enter-chroot] and launch crosh, ty
 
 Bionic()
 {
+cd ~/
 echo "Installing Bionic* Chroot..."
 echo "Make sure crouton is installed!"
 sudo CROUTON_BRANCH=silence crouton -r bionic -t xfce
@@ -69,6 +72,7 @@ echo "1st step complete! Please run ./crouton117.sh -B to continue!"
 
 Bionic2()
 {
+cd ~/
 echo "Resuming Installation of Bionic*"
 sudo enter-chroot bionic
 cd ~/Downloads
@@ -83,7 +87,7 @@ echo "Bionic* is now set up! Please type [Sudo enter-chroot] and launch crosh, t
 Version()
 {
 	# Displays Version!
- echo -e "${GREEN}crouton117 v1.0.0${NC}"
+ echo -e "${GREEN}crouton117 v1.0.0_5${NC}"
  }
  
 
