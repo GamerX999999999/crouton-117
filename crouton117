@@ -42,7 +42,7 @@ echo "Make sure crouton is installed!"
 sudo CROUTON_BRANCH=silence crouton -r xenial -t xfce
 sudo enter-chroot
 sudo apt install ssh
-echo "1st step complete! Please run ./crouton117.sh -X to continue!"
+echo "1st step complete! Please run crouton117 -X to continue!"
 }
 
 Xenial2()
@@ -67,7 +67,7 @@ echo "Make sure crouton is installed!"
 sudo CROUTON_BRANCH=silence crouton -r bionic -t xfce
 sudo enter-chroot
 sudo apt install ssh
-echo "1st step complete! Please run ./crouton117.sh -B to continue!"
+echo "1st step complete! Please run crouton117 -B to continue!"
 }
 
 Bionic2()
@@ -87,7 +87,7 @@ echo "Bionic* is now set up! Please type [Sudo enter-chroot] and launch crosh, t
 Version()
 {
 	# Displays Version!
- echo -e "${GREEN}crouton117 v1.0.0_7${NC}"
+ echo -e "${GREEN}crouton117 v1.0.0_8${NC}"
  }
  
 
