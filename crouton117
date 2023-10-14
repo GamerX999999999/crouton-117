@@ -34,8 +34,6 @@ case $yn in
 	* ) echo "invalid response";;
 esac
 
-done
-
 cd ~/
 echo "Installing Xenial Chroot..."
 echo "Make sure crouton is installed!"
@@ -61,6 +59,17 @@ echo "Xenial is now set up! Please type [Sudo enter-chroot] and launch crosh, ty
 
 Bionic()
 {
+  #Downloads Xenial Chroot
+  read -p "SELECTED:[BIONIC*] Do you want to proceed? (y/n) " yn
+
+case $yn in 
+	[yY] ) echo "Proceeding...";
+		break;;
+	[nN] ) echo "exiting...";
+		exit;;
+	* ) echo "invalid response";;
+esac
+
 cd ~/
 echo "Installing Bionic* Chroot..."
 echo "Make sure crouton is installed!"
