@@ -7,3 +7,10 @@ A crouton installation script for Chrome OS 117 and up! (FIXED!)
 * Then enter "cd /usr/local"
 * Enter "sudo chmod +x crouton117.sh && ./crouton117.sh"
 * Now you have the working script!
+# Chroots Supported
+* Xenial
+* Bionic
+# Upcomming Chroots
+* Jammy
+* Impish
+* Kinetic
